@@ -7,7 +7,7 @@ var PolicyInfoHtmlFormService = require('./service/html_to_image');
 const { includes } = require('lodash');
 const PolicyValidationHelper = require('./util/policy_validation_helper');
 
-const bot = new TelegramBot('6552365283:AAFbXA9mPkBgim0yfmh_IyevL8nD5ht35c4', { polling: true });
+const bot = new TelegramBot('token_token', { polling: true });
 
 var selectedLang = [];
 var currentQuestion = [];
